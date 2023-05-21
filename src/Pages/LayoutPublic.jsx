@@ -2,7 +2,7 @@ import { Link, Outlet } from 'react-router-dom'
 
 export function LayoutPublic() {
   return (
-    <main className='w-screen h-screen  bg-stars2 bg-no-repeat bg-cover overflow-y-scroll overflow-x-hidden'>
+    <main className='w-screen h-screen  bg-stars2 bg-no-repeat bg-cover overflow-x-hidden'>
       <section className='w-screen flex justify-center items-center'>
         <Link className='' to={'/'}>
           <img
