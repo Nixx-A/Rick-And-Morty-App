@@ -39,7 +39,7 @@ export function CharactersInput() {
   return (
     <>
       <section className=' flex justify-center flex-col items-center '>
-      <img className='absolute left-28 w-44 hover:scale-125 duration-300 top-11 ' src='/Rick.png'/>
+      <img className='hidden md:block absolute left-20 w-44 hover:scale-125 duration-300 top-11 ' src='/Rick.png'/>
         <label className='text-white mr-2 text-2xl mb-1' htmlFor='character'>
           Search Character
         </label>
